@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .btn {
+        text-transform: uppercase;
+        text-decoration: none;
+        border: 2px solid black;
+        display: block;
+        width: 200px;
+        text-align: center;
+        padding: 5px 0px;
+        margin: 5px 0;
+      }
+
+      .btn--orange {
+        background-color: orange;
+      }
+
+      .btn--blue {
+        background-color: blue;
+      }
+
+      .btn--big {
+        width: 300px;
+        height: 50px;
+        font-size: 35px;
+      }
+
+      .btn__price {
+        background-color: gray;
+        color: aliceblue;
+      }
+
+      .btn--big > .btn__text {
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="#" class="btn">
+      <span class="btn__text">standard button</span>
+    </a>
+    <a href="#" class="btn btn--orange btn--big">
+      <span class="btn__price">$3</span>
+      <span class="btn__text">big button</span></a
+    >
+    <a href="#" class="btn btn--blue btn--big">
+      <span class="btn__price">$4</span>
+      <span class="btn__text">big button</span></a
+    >
+    <!--https://css-tricks.com/bem-101/-->
+  </body>
+</html>
